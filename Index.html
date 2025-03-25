@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Adoption Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#">Child Adoption</a>
+        <div>
+            <a href="#children">Available Children</a>
+            <a href="#adopt">Adopt a Child</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Welcome to the Child Adoption Platform</h1>
+        <p>Helping children find loving families.</p>
+    </header>
+
+    <section id="children" class="container">
+        <h2 class="text-center">Available Children for Adoption</h2><br>
+        <div class="row">
+            <div class="card">
+                <img src="c:\Users\HP\Downloads\kid2.jpg" alt="Child 1">
+                <h5>Hasya</h5>
+                <p>Age: 5 years</p>
+                <p>Hasya loves to play with dolls & enjoy story time.</p>
+                <p>Blood Group : B -ve </p>
+                <a href="#" class="btn adopt-btn">Inquire About Adoption</a>
+            </div>
+            <div class="card">
+                <img src="c:\Users\HP\Downloads\kid1.jpg" alt="Child 2">
+                <h5>Akshaya</h5>
+                <p>Age: 5 years</p>
+                <p>Akshaya enjoys playing soccer and loves animals.</p>
+                <p>Blood Group : O +ve </p>
+                <a href="#" class="btn adopt-btn">Inquire About Adoption</a>
+            </div>
+            <div class="card">
+                <img src="c:\Users\HP\Downloads\kid3.webp" alt="Child 3">
+                <h5>Hemanth</h5>
+                <p>Age: 4 years</p>
+                <p>Hemanth loves painting and is very creative.</p>
+                <p>Blood Group : AB +ve </p>
+                <a href="#" class="btn adopt-btn">Inquire About Adoption</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="adopt" class="container">
+        <h2>Adopt a Child</h2>
+        <form id="adoption-form">
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" class="form-control" id="fullName" required>
+            </div>
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label>Select a Child</label>
+                <select class="form-control" id="childSelect">
+                    <option>Hasya (5 years)</option>
+                    <option>Akshaya (5 years)</option>
+                    <option>Hemanth (4 years)</option>
+                </select>
+            </div>
+            <button type="submit" class="btn">Submit Application</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>FOR MORE DETAILS <br>CONTACT US</p>
+    </footer>
